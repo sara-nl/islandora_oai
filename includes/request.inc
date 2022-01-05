@@ -149,7 +149,7 @@ function islandora_oai_get_errors() {
 
   // Return false if no errors.
   if (!count($errors)) {
-    return FALSE;
+    return array();
   }
   return $errors;
 }
