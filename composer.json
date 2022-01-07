@@ -1,0 +1,13 @@
+{
+    "name": "islandora/islandora_oai",
+    "description": "Islandora OAI-PMH protocol module for Drupal 7",
+    "type": "drupal-custom-module",
+    "keywords": [
+        "oai-pmh",
+        "harvesting"
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "minimum-stability": "stable"
+}
