@@ -1,5 +1,11 @@
 # Islandora OAI [![Build Status](https://travis-ci.org/Islandora/islandora_oai.png?branch=7.x)](https://travis-ci.org/Islandora/islandora_oai)
 
+This is a modified version of the Islandora OAI module for Drupal 7.
+
+Modifications:
+- Remove islandora_solr dependency
+- Fix PHP 7 errors
+
 ## Introduction
 
 This module provides an implementation of a data provider according to the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) for an Islandora Fedora repository with a solr index. By implementing the islandora_oai module, you can expose content (its metadata) as an OAI-PMH repository. It will then be accessible by OAI harvesters. For further OAI documentation, please see [this]( http://www.openarchives.org/OAI/openarchivesprotocol.html) link.
