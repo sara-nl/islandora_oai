@@ -1,7 +1,7 @@
 name = Islandora OAI Provider
 description = "Provides access to an Islandora repository via the OAI-PMH 2.0. Based on the OAI2 for CCK module."
 configure = admin/islandora/tools/islandora-oai
-version = 7.x-dev
+version = 7.x-1.15
 core = 7.x
 package = Islandora Tools
 
